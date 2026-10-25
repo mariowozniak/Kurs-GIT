@@ -55,7 +55,15 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+void BMP280_Init(void)
+{
+    // TODO: configure the sensor over I2C
+}
+float BMP280_ReadTemperature(void)
+{
+    // TODO: read the temperature registers
+    return 0.0f;
+}
 /* USER CODE END 0 */
 
 /**
