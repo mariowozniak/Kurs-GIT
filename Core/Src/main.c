@@ -159,7 +159,7 @@ void SystemClock_Config(void)
 
 /* USER CODE BEGIN 4 */
 /* USER CODE BEGIN 4 */
-
+/* Redirect printf output to the BSP UART (COM1). */
 int _write(int file, char *ptr, int len)
 {
     HAL_UART_Transmit(&hcom_uart[COM1], (uint8_t*)ptr, len, HAL_MAX_DELAY);
