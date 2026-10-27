@@ -34,6 +34,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define BMP280_I2C_ADDRESS 0x76
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
