@@ -97,19 +97,17 @@ int main(void)
   MX_GPIO_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+   BMP280_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    BSP_LED_Toggle(LED_GREEN);
-    HAL_Delay(200);
-    temp = BMP280_ReadTemperature();
+  
    BSP_LED_Toggle(LED_GREEN);
-    HAL_Delay(200);
-
+  HAL_Delay(200);
+  temp = BMP280_ReadTemperature();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
