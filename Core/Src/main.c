@@ -103,7 +103,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    
+    BSP_LED_Toggle(LED_GREEN);
+    HAL_Delay(200);
+    temp = BMP280_ReadTemperature();
    BSP_LED_Toggle(LED_GREEN);
     HAL_Delay(200);
 
