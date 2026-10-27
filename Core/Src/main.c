@@ -44,7 +44,7 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+float temp;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
