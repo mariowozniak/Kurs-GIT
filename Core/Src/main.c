@@ -108,6 +108,7 @@ int main(void)
    BSP_LED_Toggle(LED_GREEN);
   HAL_Delay(200);
   temp = BMP280_ReadTemperature();
+   printf("Temp: %.1f\r\n", temp);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
