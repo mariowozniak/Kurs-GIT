@@ -106,7 +106,7 @@ int main(void)
   {
   
    BSP_LED_Toggle(LED_GREEN);
-   HAL_Delay(200);
+   HAL_Delay(500);
    temp = BMP280_ReadTemperature();
    printf("Temp: %.1f C\r\n", temp);
    printf("Status: OK\r\n");
