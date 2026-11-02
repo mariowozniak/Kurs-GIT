@@ -46,6 +46,7 @@
 
 /* USER CODE BEGIN PV */
 float temp;
+uint8_t led_status = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -110,6 +111,8 @@ int main(void)
    temp = BMP280_ReadTemperature();
    printf("Temp: %.1f C\r\n", temp);
    printf("Status: OK\r\n");
+   led_state = !led_state;
+   printf("LED: %d\r\n", led_state);
 
     /* USER CODE BEGIN 3 */
   }
