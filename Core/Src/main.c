@@ -34,6 +34,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define FIRMWARE_VERSION "1.1.0"
 #define BMP280_I2C_ADDRESS 0x76
 /* USER CODE END PD */
 
